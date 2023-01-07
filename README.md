@@ -1,11 +1,23 @@
 # Terraform
- 
-1. generate key -> `ssh-keygen -f terraform-aws -t rsa`
 
-2. move the key to folder ssh -> `mv terraform-aws ~/.ssh/`
+1. add IAM user on aws and usergroup
 
-3. Init -> `terraform init`
+2. generate key -> `ssh-keygen -f terraform-aws -t rsa`
 
-4. Plan -> `terraform plan`
+3.  move the key to folder ssh -> `mv terraform-aws ~/.ssh/`
 
-5. Deploy -> `terraform deploy`
+4. upload key to aws
+
+5. Init -> `terraform init`
+
+6. Plan -> `terraform plan`
+
+7. Deploy -> `terraform apply`
+
+8. show configuration -> `terraform show`
+
+9. show configuration -> `terraform show`
+
+10. connect machine `ssh -i ~/.ssh/terraform-aws aws_machine_name`
+
+11. destroy `terraform destroy`
