@@ -21,3 +21,5 @@
 10. connect machine `ssh -i ~/.ssh/terraform-aws aws_machine_name`
 
 11. destroy `terraform destroy`
+
+11. destroy `terraform refresh`
